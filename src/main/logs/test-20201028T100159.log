@@ -1,0 +1,449 @@
+204  [main] INFO  FTtransport.UnitTests - Starting test: ft_putFile_13noKAV_COMPLETED()
+241  [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.71.211:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+443  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+444  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+444  [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1603864920053
+1532 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+1533 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+2712 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+2713 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+3933 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+3934 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+5256 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+5256 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+6693 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+6693 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+8528 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+8529 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+10811 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+10811 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+13049 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+13050 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+15271 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+15271 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+17309 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+17310 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+19573 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+19574 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+21633 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+21634 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+23943 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+23944 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+26173 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+26174 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+28500 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+28501 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+30668 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+30669 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+32855 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+32855 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+34916 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+34917 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+37202 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+37203 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+39484 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+39485 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+41720 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+41720 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+43945 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+43946 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+46193 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+46194 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+48273 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+48274 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+50394 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+50394 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+52459 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+52459 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+54725 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+54726 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+56982 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+56983 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+59027 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+59027 [kafka-producer-network-thread | producer-1] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-1] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+60450 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+60467 [main] INFO  FTtransport.UnitTests - Transfer:{"cid":"692028618","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer.txt","targetFilename":"/opt/lan/sys1/out/test1692028618.txt"}
+60469 [main] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [192.168.71.211:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-2
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+60487 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+60487 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+60487 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1603864980100
+61673 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+61674 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+62938 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+62938 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+76152 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+76153 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+77564 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+77564 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+84582 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+84582 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+86562 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+86563 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+88930 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+88930 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+91250 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+91250 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+93464 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+93464 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+95743 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+95743 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+97857 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+97857 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+102313 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+102314 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+104441 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+104441 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+106509 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+106510 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+108673 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+108674 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+110778 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+110779 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+112838 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+112839 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+114958 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+114959 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+117074 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+117075 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+119332 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+119332 [kafka-producer-network-thread | producer-2] WARN  o.a.kafka.clients.NetworkClient - [Producer clientId=producer-2] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+120488 [main] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=producer-2] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+120508 [main] INFO  FTtransport.UnitTests - Message sent:{"cid":"692028618","operation":"PUT_FILE","sourceSystem":"system-1","targetSystem":"system-3","originalFilename":"test1692028618.txt"}
+170525 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.71.211:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+170569 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 2.5.0
+170569 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 66563e712b0b9f84
+170569 [main] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1603865090183
+170570 [main] INFO  o.a.k.c.consumer.KafkaConsumer - [Consumer clientId=consumer-test-1, groupId=test] Subscribed to partition(s): ft-system-notify-0, ft-system-notify-1, ft-system-notify-2, ft-system-notify-3, ft-system-notify-4, ft-system-notify-5, ft-system-notify-6, ft-system-notify-7, ft-system-notify-8
+171670 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+171671 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+172847 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+172847 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+174082 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+174083 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+175457 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+175458 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+177006 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+177007 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+179002 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+179003 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+180929 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+180930 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+182899 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+182900 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+184815 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+184815 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+186952 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+186953 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+189128 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+189129 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+191159 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+191160 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+193276 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+193276 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+195307 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+195308 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+197388 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+197388 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+199672 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+199672 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+201803 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+201804 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+203988 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+203988 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+205912 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+205913 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+208027 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+208028 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+210060 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+210061 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+212081 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+212081 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+214249 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+214250 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+216484 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+216484 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+218615 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+218616 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+220928 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+220928 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+235235 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+235236 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+237410 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+237411 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+239327 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+239327 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+241363 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+241363 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+243388 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+243388 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+245423 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+245424 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+247338 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+247338 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+249612 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+249612 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+251863 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+251864 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+253985 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+253986 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+268020 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+268020 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+270036 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+270036 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+272246 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+272247 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+274440 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+274440 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+276405 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+276406 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+278433 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+278433 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+280654 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+280655 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+282635 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+282636 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+284901 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+284902 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+287031 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+287032 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+289066 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+289066 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+291130 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+291130 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+293365 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+293365 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+295330 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+295331 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+297619 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+297620 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+299654 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+299655 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+301885 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+301886 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+303971 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+303971 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+306256 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+306257 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+308422 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+308423 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+310507 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+310507 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+312628 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+312628 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+314843 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+314844 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+317024 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+317024 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+319247 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+319248 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+321213 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+321214 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+323198 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+323198 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+325323 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+325324 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+327312 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+327312 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected
+329387 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Connection to node -1 (/192.168.71.211:9092) could not be established. Broker may not be available.
+329387 [main] WARN  o.a.kafka.clients.NetworkClient - [Consumer clientId=consumer-test-1, groupId=test] Bootstrap broker 192.168.71.211:9092 (id: -1 rack: null) disconnected

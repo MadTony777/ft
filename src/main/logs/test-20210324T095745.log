@@ -1,0 +1,38 @@
+1487 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"604894280","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test12604894279.txt"}
+1775 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"604894280","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","targetSystem":"filestore","originalFilename":"test12604894279.txt"}
+122161 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"978076469","isOverrideIfExists":true,"isRemoveFromSource":false,"sourceFilename":"/opt/dmz/sys2/out/biga.txt","targetFilename":"/opt/lan/sys1/out/big.txt"}
+122407 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"978076469","operation":"PUT_FILE","sourceSystem":"system-1","targetSystem":"system-3","originalFilename":"big.txt"}
+292666 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"321510332","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys1/out/test1321510332.txt"}
+292926 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"321510332","operation":"PUT_FILE","sourceSystem":"system-1","targetSystem":"system-3","originalFilename":"test1321510332.txt"}
+517043 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"204399625","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/format"}
+517267 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"204399625","operation":"PUT_FILE","sourceSystem":"system-4","targetSystem":"system-1","originalFilename":"format"}
+767530 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"504289565","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys2/out/test1504289565.txt"}
+767768 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"504289565","fileId":"43b02997-c089-488f-bf79-61d34e0f5aad","operation":"GET_FILE","sourceSystem":"system-2-dmz","targetSystem":"system-1"}
+888402 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"838319641","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test12838319640.txt"}
+888641 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"838319641","operation":"PUT_TO_STORAGE","sourceSystem":"system-4","originalFilename":"test12838319640.txt"}
+1008926 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"746914947","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test12746914946.txt"}
+1009194 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"746914947","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","originalFilename":"test12746914946.txt"}
+1129448 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"2791235","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test12791235.txt"}
+1129689 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"2791235","operation":"PUT_TO_STORAGE","sourceSystem":"system-4","originalFilename":"test12791235.txt"}
+1249937 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"502939983","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys3/out/test1502939983.txt"}
+1250470 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"502939983","fileId":"ea1b3bab-ac56-47d8-8ab3-54e5b0c95af8","operation":"GET_FILE","sourceSystem":"system-3","targetSystem":"system-1"}
+1370718 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"900831591","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test1900831591.txt"}
+1370957 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"900831591","fileId":"53a2f6c3-4538-4325-94d4-b42d6b2252f1","operation":"GET_FILE","sourceSystem":"system-5-dmz","targetSystem":"system-4"}
+1491213 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"688871588","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test1688871588.txt"}
+1491447 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"688871588","fileId":"7da407ab-4b44-4860-948b-763e71715b2e","operation":"GET_FILE","sourceSystem":"system-4","targetSystem":"system-1"}
+1611697 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"151262806","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test1151262806.txt"}
+1611962 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"151262806","operation":"PUT_FILE","sourceSystem":"system-5-dmz","targetSystem":"system-4","originalFilename":"test1151262806.txt"}
+1862258 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"748918743","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test1748918743.txt"}
+1862493 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"748918743","operation":"PUT_FILE","sourceSystem":"system-4","targetSystem":"system-1","originalFilename":"test1748918743.txt"}
+2112738 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"883848798","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys2/out/test1883848798.txt"}
+2112999 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"883848798","operation":"PUT_FILE","sourceSystem":"system-2-dmz","targetSystem":"system-1","originalFilename":"test1883848798.txt"}
+2363261 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"724048091","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys1/out/test1724048091.txt"}
+2363493 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"724048091","operation":"PUT_FILE","sourceSystem":"system-1","targetSystem":"system-3","originalFilename":"nofile"}
+2533738 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"593836715","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test12593836714.txt"}
+2533969 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"593836715","operation":"PUT_TO_STORAGE","sourceSystem":"system-4","targetSystem":"filestore","originalFilename":"test12593836714.txt"}
+2654219 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"105137500","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test1105137500.txt"}
+2654456 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"105137500","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","targetSystem":"filestore","originalFilename":"test1105137500.txt"}
+2774728 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"1976128","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test11976128.txt"}
+2774966 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"1976128","operation":"PUT_TO_STORAGE","sourceSystem":"system-4","targetSystem":"filestore","originalFilename":"test11976128.txt"}
+2895220 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"428328757","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test1428328757.txt"}
+2895488 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"428328757","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","originalFilename":"test1428328757.txt"}

@@ -1,0 +1,182 @@
+1119 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"628751700","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test12628751699.txt"}
+1425 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"628751700","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","targetSystem":"filestore","originalFilename":"test12628751699.txt"}
+7656 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"628751699","fileId":"2180112d-11ef-4575-9b52-c4d0922cf65c","operation":"GET_FROM_STORAGE","sourceSystem":"filestore","targetSystem":"system-5-dmz"}
+9719 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"34dad639646acb8f","cid":"628751699","fileId":"2180112d-11ef-4575-9b52-c4d0922cf65c","currentFilename":"34dad639646acb8f_test12628751699.txt","originalFilename":"test12628751699.txt","fromSystem":"filestore","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+9719 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:34dad639646acb8f
+9960 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"628751699","traceId":"34dad639646acb8f","type":"FILE_RECEIVED"}
+20078 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/34dad639646acb8f
+20078 [main] WARN  FTtransport.UnitTests - Response Code : 200
+20338 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"591273637","isOverrideIfExists":true,"isRemoveFromSource":false,"sourceFilename":"/opt/dmz/sys2/out/biga.txt","targetFilename":"/opt/lan/sys1/out/big.txt"}
+20583 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"591273637","operation":"PUT_FILE","sourceSystem":"system-1","targetSystem":"system-3","originalFilename":"big.txt"}
+71496 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"f0c0b3fdda1ddd32","cid":"591273637","type":"NOTIFICATION","description":"Message successfully sent to processing"}
+71497 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:f0c0b3fdda1ddd32
+71497 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"f0c0b3fdda1ddd32","cid":"591273637","fileId":"f0c0b3fdda1ddd32","currentFilename":"f0c0b3fdda1ddd32_big.txt","originalFilename":"big.txt","type":"ERROR","description":"ft-transfer returns error message='java.io.FileNotFoundException: Source filename='/opt/lan/sys1/out/big.txt' does not exist'"}
+71498 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:f0c0b3fdda1ddd32
+71739 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"591273637","traceId":"f0c0b3fdda1ddd32","type":"FILE_RECEIVED","fileId":"6a02d71e-356d-40c3-bd8a-7567519f2cde"}
+81803 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/f0c0b3fdda1ddd32
+81804 [main] WARN  FTtransport.UnitTests - Response Code : 200
+82095 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"607580316","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys1/out/test1607580316.txt"}
+82377 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"607580316","operation":"PUT_FILE","sourceSystem":"system-1","targetSystem":"system-3","originalFilename":"test1607580316.txt"}
+133282 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"46f76a4e5668b0cd","cid":"607580316","fileId":"46f76a4e5668b0cd","currentFilename":"46f76a4e5668b0cd_test1607580316.txt","originalFilename":"test1607580316.txt","fromSystem":"system-1","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+133283 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:46f76a4e5668b0cd
+133520 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"607580316","traceId":"46f76a4e5668b0cd","type":"FILE_RECEIVED","fileId":"e9a8ed37-42a7-4c0c-b0c1-8e80315811d6"}
+143583 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/46f76a4e5668b0cd
+143584 [main] WARN  FTtransport.UnitTests - Response Code : 200
+143825 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"852165464","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/format"}
+144061 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"852165464","operation":"PUT_FILE","sourceSystem":"system-4","targetSystem":"system-1","originalFilename":"format"}
+194964 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"bb9d4eedfb3daf57","cid":"852165464","fileId":"bb9d4eedfb3daf57","currentFilename":"bb9d4eedfb3daf57_format","originalFilename":"format","fromSystem":"system-4","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+194964 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:bb9d4eedfb3daf57
+195197 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"852165464","traceId":"bb9d4eedfb3daf57","type":"FILE_RECEIVED","fileId":"b8dc9012-e3e5-4d23-9bea-055a432535de"}
+205261 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/bb9d4eedfb3daf57
+205261 [main] WARN  FTtransport.UnitTests - Response Code : 200
+205499 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"337162746","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys2/out/test1337162746.txt"}
+205738 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"337162746","fileId":"ef181d6b-3183-4b45-9a0a-9f58466447b3","operation":"GET_FILE","sourceSystem":"system-2-dmz","targetSystem":"system-1"}
+206323 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"169d97f081439151","cid":"337162746","type":"NOTIFICATION","description":"Message successfully sent to processing"}
+206323 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:169d97f081439151
+206324 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"169d97f081439151","cid":"337162746","fileId":"ef181d6b-3183-4b45-9a0a-9f58466447b3","fromSystem":"system-1","type":"FILE_REQUEST","description":"Sent request for get file from source system"}
+206324 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:169d97f081439151
+206565 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"337162746","operation":"PUT_FILE","traceId":"169d97f081439151","sourceSystem":"system-2-dmz","targetSystem":"system-1","originalFilename":"test1337162746.txt"}
+207750 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"337162746","traceId":"169d97f081439151","type":"FILE_RECEIVED"}
+217784 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/169d97f081439151
+217785 [main] WARN  FTtransport.UnitTests - Response Code : 200
+218026 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"931246823","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test12931246822.txt"}
+218287 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"931246823","operation":"PUT_TO_STORAGE","sourceSystem":"system-4","originalFilename":"test12931246822.txt"}
+222120 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"931246822","fileId":"5db0ae67-db42-4e0a-856a-6220d957bdc3","operation":"GET_FROM_STORAGE","targetSystem":"system-4"}
+223922 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"9558c7cc3b5a0f6c","cid":"931246822","fileId":"5db0ae67-db42-4e0a-856a-6220d957bdc3","currentFilename":"9558c7cc3b5a0f6c_test12931246822.txt","originalFilename":"test12931246822.txt","fromSystem":"filestore","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+223923 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:9558c7cc3b5a0f6c
+224159 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"931246822","traceId":"9558c7cc3b5a0f6c","type":"FILE_RECEIVED"}
+234194 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/9558c7cc3b5a0f6c
+234195 [main] WARN  FTtransport.UnitTests - Response Code : 200
+234431 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"127077306","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test12127077305.txt"}
+234676 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"127077306","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","originalFilename":"test12127077305.txt"}
+238964 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"127077305","fileId":"1b95da1f-7662-40b5-b00f-02ff4b736d38","operation":"GET_FROM_STORAGE","targetSystem":"system-5-dmz"}
+240569 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"2a76d9604632a3b7","cid":"127077305","fileId":"1b95da1f-7662-40b5-b00f-02ff4b736d38","currentFilename":"2a76d9604632a3b7_test12127077305.txt","originalFilename":"test12127077305.txt","fromSystem":"filestore","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+240570 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:2a76d9604632a3b7
+240828 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"127077305","traceId":"2a76d9604632a3b7","type":"FILE_RECEIVED"}
+250862 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/2a76d9604632a3b7
+250862 [main] WARN  FTtransport.UnitTests - Response Code : 200
+251101 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"698839531","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test1698839531.txt"}
+251329 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"698839531","operation":"PUT_TO_STORAGE","sourceSystem":"system-4","originalFilename":"test1698839531.txt"}
+255960 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"180fb1897e0d4340","cid":"698839531","fileId":"d9198c30-0797-48a8-bd22-814dbfddd184","currentFilename":"180fb1897e0d4340_test1698839531.txt","originalFilename":"test1698839531.txt","fromSystem":null,"type":"FILE_RECEIVED","description":"File from system=system-4 successfully saved with fileId=d9198c30-0797-48a8-bd22-814dbfddd184"}
+255960 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:180fb1897e0d4340
+255961 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"180fb1897e0d4340","cid":"698839531","fileId":"180fb1897e0d4340","currentFilename":"180fb1897e0d4340_test1698839531.txt","originalFilename":"test1698839531.txt","fromSystem":"system-4","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+255961 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:180fb1897e0d4340
+255961 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"180fb1897e0d4340","cid":"698839531","type":"NOTIFICATION","description":"Message successfully sent to processing"}
+255961 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:180fb1897e0d4340
+255962 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"180fb1897e0d4340","cid":"698839531","fileId":"d9198c30-0797-48a8-bd22-814dbfddd184","currentFilename":"180fb1897e0d4340_test1698839531.txt","originalFilename":"test1698839531.txt","fromSystem":"filestore","type":"FILE_RECEIVED","description":"Target system received file successfully"}
+255962 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:180fb1897e0d4340
+265999 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/180fb1897e0d4340
+265999 [main] WARN  FTtransport.UnitTests - Response Code : 200
+266253 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"251878706","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys3/out/test1251878706.txt"}
+266489 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"251878706","fileId":"33a033b7-1e22-4a9a-b974-003ccabafae2","operation":"GET_FILE","sourceSystem":"system-3","targetSystem":"system-1"}
+267440 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"bd6b45a9e6c1786d","cid":"251878706","fileId":"33a033b7-1e22-4a9a-b974-003ccabafae2","fromSystem":"system-1","type":"FILE_REQUEST","description":"Sent request for get file from source system"}
+267440 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:bd6b45a9e6c1786d
+267440 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"bd6b45a9e6c1786d","cid":"251878706","type":"NOTIFICATION","description":"Message successfully sent to processing"}
+267440 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:bd6b45a9e6c1786d
+267669 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"251878706","operation":"PUT_FILE","traceId":"bd6b45a9e6c1786d","sourceSystem":"system-3","targetSystem":"system-1","originalFilename":"test1251878706.txt"}
+268816 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"251878706","traceId":"bd6b45a9e6c1786d","type":"FILE_RECEIVED"}
+278851 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/bd6b45a9e6c1786d
+278851 [main] WARN  FTtransport.UnitTests - Response Code : 200
+279088 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"692596302","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test1692596302.txt"}
+279324 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"692596302","fileId":"05a9b2d7-5a6e-4ee6-b7c4-01f7517902ad","operation":"GET_FILE","sourceSystem":"system-5-dmz","targetSystem":"system-4"}
+279722 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"840cfcd14d2a61c2","cid":"692596302","type":"NOTIFICATION","description":"Message successfully sent to processing"}
+279723 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:840cfcd14d2a61c2
+279723 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"840cfcd14d2a61c2","cid":"692596302","fileId":"05a9b2d7-5a6e-4ee6-b7c4-01f7517902ad","fromSystem":"system-4","type":"FILE_REQUEST","description":"Sent request for get file from source system"}
+279723 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:840cfcd14d2a61c2
+279992 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"692596302","operation":"PUT_FILE","traceId":"840cfcd14d2a61c2","sourceSystem":"system-5-dmz","targetSystem":"system-4","originalFilename":"test1692596302.txt"}
+282766 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"692596302","traceId":"840cfcd14d2a61c2","type":"FILE_RECEIVED"}
+292803 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/840cfcd14d2a61c2
+292803 [main] WARN  FTtransport.UnitTests - Response Code : 200
+293059 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"15686621","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test115686621.txt"}
+293285 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"15686621","fileId":"dab8908d-2cc7-421f-977e-5c8252ffe870","operation":"GET_FILE","sourceSystem":"system-4","targetSystem":"system-1"}
+294176 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"3b4ac5cf45f24c9e","cid":"15686621","fileId":"dab8908d-2cc7-421f-977e-5c8252ffe870","fromSystem":"system-1","type":"FILE_REQUEST","description":"Sent request for get file from source system"}
+294176 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:3b4ac5cf45f24c9e
+294176 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"3b4ac5cf45f24c9e","cid":"15686621","type":"NOTIFICATION","description":"Message successfully sent to processing"}
+294176 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:3b4ac5cf45f24c9e
+294410 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"15686621","operation":"PUT_FILE","traceId":"3b4ac5cf45f24c9e","sourceSystem":"system-4","targetSystem":"system-1","originalFilename":"test115686621.txt"}
+296430 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"15686621","traceId":"3b4ac5cf45f24c9e","type":"FILE_RECEIVED"}
+306465 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/3b4ac5cf45f24c9e
+306465 [main] WARN  FTtransport.UnitTests - Response Code : 200
+306701 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"270427577","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test1270427577.txt"}
+306934 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"270427577","operation":"PUT_FILE","sourceSystem":"system-5-dmz","targetSystem":"system-4","originalFilename":"test1270427577.txt"}
+357831 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"a35d07efc505181c","cid":"270427577","fileId":"a35d07efc505181c","currentFilename":"a35d07efc505181c_test1270427577.txt","originalFilename":"test1270427577.txt","fromSystem":"system-5-dmz","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+357831 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:a35d07efc505181c
+358071 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"270427577","traceId":"a35d07efc505181c","type":"FILE_RECEIVED","fileId":"3bfbbd28-3aa3-4124-98ba-27efdabf02b3"}
+368135 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/a35d07efc505181c
+368136 [main] WARN  FTtransport.UnitTests - Response Code : 200
+368368 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"567133602","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test1567133602.txt"}
+368600 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"567133602","operation":"PUT_FILE","sourceSystem":"system-4","targetSystem":"system-1","originalFilename":"test1567133602.txt"}
+419495 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"52bddd25fbfb3904","cid":"567133602","fileId":"52bddd25fbfb3904","currentFilename":"52bddd25fbfb3904_test1567133602.txt","originalFilename":"test1567133602.txt","fromSystem":"system-4","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+419495 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:52bddd25fbfb3904
+419733 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"567133602","traceId":"52bddd25fbfb3904","type":"FILE_RECEIVED","fileId":"8a274b3b-be27-4ed2-b2bc-cfa1633f9833"}
+429797 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/52bddd25fbfb3904
+429797 [main] WARN  FTtransport.UnitTests - Response Code : 200
+430034 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"733665020","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys2/out/test1733665020.txt"}
+430269 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"733665020","operation":"PUT_FILE","sourceSystem":"system-2-dmz","targetSystem":"system-1","originalFilename":"test1733665020.txt"}
+481177 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"075e15bb01e955dd","cid":"733665020","fileId":"075e15bb01e955dd","currentFilename":"075e15bb01e955dd_test1733665020.txt","originalFilename":"test1733665020.txt","fromSystem":"system-2-dmz","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+481178 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:075e15bb01e955dd
+481412 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"733665020","traceId":"075e15bb01e955dd","type":"FILE_RECEIVED","fileId":"f0999da4-3011-4346-9af7-4ce87e05302e"}
+491475 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/075e15bb01e955dd
+491475 [main] WARN  FTtransport.UnitTests - Response Code : 200
+491706 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"394164765","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys1/out/test1394164765.txt"}
+491940 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"394164765","operation":"PUT_FILE","sourceSystem":"system-1","targetSystem":"system-3","originalFilename":"nofile"}
+543766 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"990279104b8498e4","cid":"394164765","type":"NOTIFICATION","description":"Message successfully sent to processing"}
+543767 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:990279104b8498e4
+543767 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"990279104b8498e4","cid":"394164765","fileId":"990279104b8498e4","currentFilename":"990279104b8498e4_nofile","originalFilename":"nofile","type":"ERROR","description":"ft-transfer returns error message='java.io.FileNotFoundException: Source filename='/opt/lan/sys1/out/nofile' does not exist'"}
+543767 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:990279104b8498e4
+544007 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"394164765","traceId":"990279104b8498e4","type":"FILE_RECEIVED","fileId":"67a05eac-c2ba-44c7-ad74-50d9ac3594e1"}
+554070 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/990279104b8498e4
+554070 [main] WARN  FTtransport.UnitTests - Response Code : 200
+554304 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"119662637","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test12119662636.txt"}
+554536 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"119662637","operation":"PUT_TO_STORAGE","sourceSystem":"system-4","targetSystem":"filestore","originalFilename":"test12119662636.txt"}
+558374 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"119662636","fileId":"506d08eb-fa18-4d69-b311-a68fe7706422","operation":"GET_FROM_STORAGE","sourceSystem":"filestore","targetSystem":"system-4"}
+561110 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"5aae28c8bd10b104","cid":"119662636","fileId":"506d08eb-fa18-4d69-b311-a68fe7706422","currentFilename":"5aae28c8bd10b104_test12119662636.txt","originalFilename":"test12119662636.txt","fromSystem":"filestore","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+561110 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:5aae28c8bd10b104
+561340 [main] WARN  FTtransport.UnitTests - Recieved sent:{"cid":"119662636","traceId":"5aae28c8bd10b104","type":"FILE_RECEIVED"}
+571374 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/5aae28c8bd10b104
+571374 [main] WARN  FTtransport.UnitTests - Response Code : 200
+571615 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"243058350","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test1243058350.txt"}
+571850 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"243058350","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","targetSystem":"filestore","originalFilename":"test1243058350.txt"}
+576042 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"8caa09d6aa082061","cid":"243058350","fileId":"8caa09d6aa082061","currentFilename":"8caa09d6aa082061_test1243058350.txt","originalFilename":"test1243058350.txt","fromSystem":"system-5-dmz","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+576042 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:8caa09d6aa082061
+586077 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/8caa09d6aa082061
+586078 [main] WARN  FTtransport.UnitTests - Response Code : 200
+586314 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"651220914","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/lan/sys4/out/test1651220914.txt"}
+586543 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"651220914","operation":"PUT_TO_STORAGE","sourceSystem":"system-4","targetSystem":"filestore","originalFilename":"test1651220914.txt"}
+588331 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"eb3392995c5998d6","cid":"651220914","fileId":"6bf323e7-1277-4dea-8e92-3a49be1cc0c6","currentFilename":"eb3392995c5998d6_test1651220914.txt","originalFilename":"test1651220914.txt","fromSystem":null,"type":"FILE_RECEIVED","description":"File from system=system-4 successfully saved with fileId=6bf323e7-1277-4dea-8e92-3a49be1cc0c6"}
+588331 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:eb3392995c5998d6
+588331 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"eb3392995c5998d6","cid":"651220914","fileId":"eb3392995c5998d6","currentFilename":"eb3392995c5998d6_test1651220914.txt","originalFilename":"test1651220914.txt","fromSystem":"system-4","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+588331 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:eb3392995c5998d6
+588332 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"eb3392995c5998d6","cid":"651220914","type":"NOTIFICATION","description":"Message successfully sent to processing"}
+588332 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:eb3392995c5998d6
+588332 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"eb3392995c5998d6","cid":"651220914","fileId":"6bf323e7-1277-4dea-8e92-3a49be1cc0c6","currentFilename":"eb3392995c5998d6_test1651220914.txt","originalFilename":"test1651220914.txt","fromSystem":"filestore","type":"FILE_RECEIVED","description":"Target system received file successfully"}
+588332 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:eb3392995c5998d6
+598366 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/eb3392995c5998d6
+598366 [main] WARN  FTtransport.UnitTests - Response Code : 200
+598614 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"884223475","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test1884223475.txt"}
+598846 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"884223475","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","originalFilename":"test1884223475.txt"}
+602046 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"102f111e665f1351","cid":"884223475","fileId":"a4631309-9d4b-406c-aac7-4e4d06d82a41","currentFilename":"102f111e665f1351_test1884223475.txt","originalFilename":"test1884223475.txt","fromSystem":null,"type":"FILE_RECEIVED","description":"File from system=system-5-dmz successfully saved with fileId=a4631309-9d4b-406c-aac7-4e4d06d82a41"}
+602046 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:102f111e665f1351
+602046 [main] WARN  FTtransport.UnitTests - Kafka response value:{"traceId":"102f111e665f1351","cid":"884223475","fileId":"102f111e665f1351","currentFilename":"102f111e665f1351_test1884223475.txt","originalFilename":"test1884223475.txt","fromSystem":"system-5-dmz","type":"FILE_INCOME","description":"Successfully moved into system folder"}
+602046 [main] WARN  FTtransport.UnitTests - Value traceId for Recieved:102f111e665f1351
+612081 [main] WARN  FTtransport.UnitTests - 
+Sending 'GET' request to URL : http://fs-app-lan-tst.vsk.ru:8083/ft-agent/status/102f111e665f1351
+612081 [main] WARN  FTtransport.UnitTests - Response Code : 200

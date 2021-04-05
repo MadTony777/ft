@@ -1,0 +1,2 @@
+1112 [main] WARN  FTtransport.UnitTests - Transfer:{"cid":"408752884","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test12408752883.txt"}
+1403 [main] WARN  FTtransport.UnitTests - Message sent:{"cid":"408752884","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","targetSystem":"filestore","originalFilename":"test12408752883.txt"}

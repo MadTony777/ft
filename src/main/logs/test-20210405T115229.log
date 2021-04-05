@@ -1,0 +1,59 @@
+272  [main] INFO  FTtransport.UnitTests - Starting test: ft_getFromStorage_5withStringSource_COMPLETED()
+1318 [main] INFO  FTtransport.UnitTests - Transfer:{"cid":"396310010","operation":"COPY","sourceFilename":"/opt/dmz/sys5/out/transfer1.txt","targetFilename":"/opt/dmz/sys5/out/test12396310009.txt"}
+1590 [main] INFO  FTtransport.UnitTests - Message sent:{"cid":"396310010","operation":"PUT_TO_STORAGE","sourceSystem":"system-5-dmz","targetSystem":"filestore","originalFilename":"test12396310009.txt"}
+1736157 [main] INFO  FTtransport.UnitTests - End test
+
+1736189 [main] INFO  FTtransport.UnitTests - Starting test: ft_put_bigFile_ERROR()
+1736192 [main] INFO  FTtransport.UnitTests - End test
+
+1736197 [main] INFO  FTtransport.UnitTests - Starting test: ft_putFile_13noKAV_COMPLETED()
+1736199 [main] INFO  FTtransport.UnitTests - End test
+
+1736204 [main] INFO  FTtransport.UnitTests - Starting test: ft_put_noFormat_COMPLETED()
+1736205 [main] INFO  FTtransport.UnitTests - End test
+
+1736210 [main] INFO  FTtransport.UnitTests - Starting test: ft_getFile_21noKAV_COMPLETED()
+1736216 [main] INFO  FTtransport.UnitTests - End test
+
+1736219 [main] INFO  FTtransport.UnitTests - Starting test: ft_getFromStorage_4withoutStringSource_COMPLETED()
+1736220 [main] INFO  FTtransport.UnitTests - End test
+
+1736223 [main] INFO  FTtransport.UnitTests - Starting test: ft_getFromStorage_5withoutStringSource_COMPLETED()
+1736225 [main] INFO  FTtransport.UnitTests - End test
+
+1736228 [main] INFO  FTtransport.UnitTests - Starting test: ft_putToStorage_4noKAVwithoutStringSource_COMPLETED()
+1736229 [main] INFO  FTtransport.UnitTests - End test
+
+1736232 [main] INFO  FTtransport.UnitTests - Starting test: ft_getFile_31noKAV_COMPLETED()
+1736235 [main] INFO  FTtransport.UnitTests - End test
+
+1736239 [main] INFO  FTtransport.UnitTests - Starting test: ft_getFile_54KAV_COMPLETED()
+1736240 [main] INFO  FTtransport.UnitTests - End test
+
+1736244 [main] INFO  FTtransport.UnitTests - Starting test: ft_getFile_41KAV_COMPLETED()
+1736245 [main] INFO  FTtransport.UnitTests - End test
+
+1736248 [main] INFO  FTtransport.UnitTests - Starting test: ft_putFile_54KAV_COMPLETED()
+1736249 [main] INFO  FTtransport.UnitTests - End test
+
+1736253 [main] INFO  FTtransport.UnitTests - Starting test: ft_putFile_41KAV_COMPLETED()
+1736254 [main] INFO  FTtransport.UnitTests - End test
+
+1736257 [main] INFO  FTtransport.UnitTests - Starting test: ft_putFile_21noKAV_COMPLETED()
+1736258 [main] INFO  FTtransport.UnitTests - End test
+
+1736261 [main] INFO  FTtransport.UnitTests - Starting test: ft_put_noFile_ERROR()
+1736263 [main] INFO  FTtransport.UnitTests - End test
+
+1736268 [main] INFO  FTtransport.UnitTests - Starting test: ft_getFromStorage_4withStringSource_COMPLETED()
+1736269 [main] INFO  FTtransport.UnitTests - End test
+
+1736273 [main] INFO  FTtransport.UnitTests - Starting test: ft_putToStorage_5KAVwithStringSource_COMPLETED()
+1736274 [main] INFO  FTtransport.UnitTests - End test
+
+1736277 [main] INFO  FTtransport.UnitTests - Starting test: ft_putToStorage_4noKAVwithStringSource_COMPLETED()
+1736278 [main] INFO  FTtransport.UnitTests - End test
+
+1736281 [main] INFO  FTtransport.UnitTests - Starting test: ft_putToStorage_5KAVwithoutStringSource_COMPLETED()
+1736282 [main] INFO  FTtransport.UnitTests - End test
+
